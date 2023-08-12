@@ -1,5 +1,3 @@
-// C++ code
-//
 int led=3;
 int button1=4;
 int button2=5;
@@ -16,17 +14,17 @@ void setup()
 void loop()
 {
   reading1=digitalRead(button1);
-if(reading1==1; i<=255)
+if(reading1==1&&i<=255)
 {
   analogWrite(led,i);
-    i=+15;
+    i+=5;
     delay(250);
 }
 reading2=digitalRead(button2);
-  if(reading2==1;i>=0)
+  if(reading2==1&&i>=0)
   {
 analogWrite(led,i);
-    i=-15;
+    i-=5;
     delay(250);
  }
 }
